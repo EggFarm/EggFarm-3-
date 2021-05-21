@@ -1,0 +1,52 @@
+# EggFarm-team-3-
+
+모바일 콘텐츠 기말 미션 4 - 3조 (김미소, 오은주, 하주성) 과제 제출용
+
+  <게임 개발 환경>  
+  
+- HardWare : Window 10 OS 노트북
+
+-  SoftWare : Unitiy(2020.3.3f1), Visual Studio 2019
+
+
+
+
+  <사용라이브러리>
+  
+- GitHub
+
+- AssetStore
+
+
+
+  <게임 설치 환경>
+  
+- Window 10이 설치된 노트북, 데스크탑
+
+
+  <라이센스>
+
+- 전부 허용
+
+
+   <게임 기능>
+
+- 키보드, 마우스로 캐릭터 조작 가능(Scripts)
+
+- 게임 진행 상황 제시(label Text)
+
+- 무기 구현 (캐릭터에서 Bullet이 발사됨)
+
+- Monster(닭)이 자동적으로 Terrain을 돌아다님(NavMeshAgent 사용)
+
+- Monster에 Bullet 충돌 시, 계란후라이 나옴(Instantiate 함수로, Monster의 Transform, rotation에 계란후라이 불러옴)
+
+- Enemy(농장주인) 소환 시, 자동으로 Player 추적(Update 함수에 Player Transform 따라가도록 설정)
+
+- Exit(탈출구)를 Trigger로 설정하고, 범위 안에 진입 시 Ending Scene(BrightDay)으로 Scene 전환
+
+
+   <기획자료>
+   
+- 메인 페이지 기획자료 ppt 참조
+
